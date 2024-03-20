@@ -70,6 +70,10 @@ fn handle_event(token: String, event: EventCallback) {
         "hello",
         "hi",
         "hey",
+        "hoi",
+        "hallo",
+        "salut",
+        "salü",
     ];
 
     if !hellos.contains(&event.event.text.as_str()) { return; }
